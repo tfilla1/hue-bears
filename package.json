@@ -1,0 +1,24 @@
+{
+  "name": "hue-bears",
+  "version": "1.0.0",
+  "description": "a hue light plugin for when bears score.",
+  "main": "bears.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfilla1/hue-bears.git"
+  },
+  "keywords": [
+    "hue",
+    "bears",
+    "score"
+  ],
+  "author": "tfilla1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tfilla1/hue-bears/issues"
+  },
+  "homepage": "https://github.com/tfilla1/hue-bears#readme"
+}
