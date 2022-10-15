@@ -1,0 +1,19 @@
+{
+  "title": "Carepay",
+  "applets": [
+    {
+      "name": "Code Management",
+      "icon": "mdi-pound",
+      "title": "Code Management",
+      "description": "Some other description",
+      "to": { "name": "scores" }
+    },
+    {
+      "name": "Providers",
+      "icon": "mdi-medical-bag",
+      "title": "Providers",
+      "description": "Providers applet containing Organization and Individual management",
+      "to": { "name": "providers" }
+    }
+  ]
+}

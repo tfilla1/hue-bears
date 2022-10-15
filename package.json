@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/tfilla1/hue-bears/issues"
   },
-  "homepage": "https://github.com/tfilla1/hue-bears#readme"
+  "homepage": "https://github.com/tfilla1/hue-bears#readme",
+  "dependencies": {
+    "node-hue-api": "^5.0.0-beta.14"
+  }
 }
