@@ -1,0 +1,32 @@
+$max-border-width: 10;
+
+.border-0 {
+  border: 0 none !important;
+}
+
+@mixin border-base {
+  border: 0 solid rgba(0, 0, 0, 0.15);
+  // TODO: PULL IN VUETIFY THEME COLORS
+}
+
+@for $i from 0 through $max-border-width {
+  .border-t-#{$i} {
+    @include border-base;
+    border-top-width: $i * 1px !important;
+  }
+
+  .border-b-#{$i} {
+    @include border-base;
+    border-bottom-width: $i * 1px !important;
+  }
+
+  .border-l-#{$i} {
+    @include border-base;
+    border-left-width: $i * 1px !important;
+  }
+
+  .border-r-#{$i} {
+    @include border-base;
+    border-right-width: $i * 1px !important;
+  }
+}
