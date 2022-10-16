@@ -3,10 +3,17 @@
   "applets": [
     {
       "name": "Games",
-      "icon": "mdi-football",
-      "title": "Games",
+      "icon": "mdi-lan",
+      "title": "Organizations",
       "description": "games",
-      "to": { "name": "games" }
+      "to": { "name": "games-view" }
+    },
+    {
+      "name": "Games",
+      "icon": "mdi-account-circle",
+      "title": "Individuals",
+      "description": "games",
+      "to": { "name": "scores-view" }
     }
   ]
 }
