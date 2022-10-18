@@ -72,7 +72,7 @@
     >
       <template v-slot:prepend>
         <v-list-item two-line :class="miniVariant && 'px-2'">
-          <v-list-item-avatar class="accent rounded" @click.stop="appDrawer = !appDrawer">
+          <v-list-item-avatar class="accent rounded">
             <v-icon>$building</v-icon>
           </v-list-item-avatar>
 
@@ -113,7 +113,7 @@ export default {
 
   data: () => ({
     drawer: false,
-    appDrawer: true,
+    appDrawer: false,
     miniVariant: true,
     useFavorites: true,
     useSearch: true,
