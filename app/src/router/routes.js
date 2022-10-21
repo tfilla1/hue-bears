@@ -7,7 +7,7 @@ export default [
   {
     path: '/games',
     name: 'games-view',
-    component: () => import('./applets/games/home-view.vue')
+    component: () => import('./applets/games/games-view.vue')
     // children: [
     //     {
     //         path: ':id/scores',

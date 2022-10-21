@@ -1,18 +1,20 @@
 {
-  "title": "hue-bears",
+  "name": "hue-bears",
+  "title": "Hue Bears",
+  "icon": "mdi-dog",
   "applets": [
     {
       "name": "Games",
-      "icon": "mdi-lan",
-      "title": "Organizations",
+      "icon": "mdi-football",
+      "title": "Games",
       "description": "games",
       "to": { "name": "games-view" }
     },
     {
-      "name": "Games",
-      "icon": "mdi-account-circle",
-      "title": "Individuals",
-      "description": "games",
+      "name": "Light",
+      "icon": "mdi-lightbulb",
+      "title": "Lights",
+      "description": "light",
       "to": { "name": "scores-view" }
     }
   ]

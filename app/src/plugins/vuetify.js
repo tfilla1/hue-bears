@@ -8,9 +8,9 @@ export default new Vuetify({
     themes: {
       name: 'hue_bears_theme',
       light: {
-        primary: '#1e5a95', // "#001E62",
-        secondary: '#4f8ab6', // "#00B5E2",
-        accent: '#ffc332', // "#80276C",
+        primary: '#0B162A', // "#001E62",
+        secondary: '#0B162A', // "#00B5E2",
+        accent: '#C83803', // "#80276C",
         error: '#D50032',
         icon: '#000099',
         footer: '#99CCFF',
