@@ -15,7 +15,7 @@
       "icon": "mdi-lightbulb",
       "title": "Lights",
       "description": "light",
-      "to": { "name": "scores-view" }
+      "to": { "name": "lights-view" }
     }
   ]
 }

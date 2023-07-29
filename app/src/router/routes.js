@@ -17,9 +17,9 @@ export default [
     // ]
   },
   {
-    path: '/scores',
-    name: 'scores-view',
-    component: () => import('./applets/games/views/scores-view.vue'),
+    path: '/lights',
+    name: 'lights-view',
+    component: () => import('./applets/lights/lights-view.vue'),
 
   }
 ]
